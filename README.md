@@ -31,7 +31,9 @@ To target a specific recipient and unlock the custom terminal greeting, you must
 
 <br>
 
-`https://your-voyage-link.com/index.html`**`?n=YourName`**
+`mayborg121.github.io/voyage`**`?n=Person's Name`**
+
+`Example : `**`mayborg121.github.io/voyage?n=Mayur`**
 
 <p>
   <sub><i>The UI will dynamically reconfigure its terminal logs to address the specified user.</i></sub>
