@@ -345,7 +345,7 @@
                 <div class="flex justify-center mt-6">
                     <div id="power-gauge" class="w-20 h-20 border-4 border-cyan-500 rounded-full flex items-center justify-center text-lg font-black">1%</div>
                 </div>
-                <p class="text-[10px] mt-6 opacity-40 italic">Move fast to generate energy</p>
+                <p class="text-[10px] mt-6 opacity-40 italic">Swipe on circle fast to generate energy</p>
             </div>
         </section>
 
@@ -561,7 +561,7 @@ what we share exists far beyond these gaps.</p>
 
             const collect = () => {
                 p.remove();
-                STATE.fragmentsCollected++;
+                STATE.fragmentsCollected += 2;
                 updateSync(2);
             };
             p.addEventListener('mouseover', collect);
